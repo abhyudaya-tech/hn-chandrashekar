@@ -845,7 +845,8 @@ section,
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 8px;
+  height: 225px;
 }
 
 .gallery .gallery-item img {
@@ -1389,4 +1390,37 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.btn-bordered {
+  border: 1px solid #c2071e;
+  color: var(--contrast-color);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.video-item {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.video-item:hover {
+  transform: scale(1.05);
+}
+
+.video-item iframe {
+  display: block;
+  border: none;
+}
+
+.video-item {
+  margin-bottom: 16px;
 }
